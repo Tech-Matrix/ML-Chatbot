@@ -1,0 +1,111 @@
+{
+	"intents": [{
+			"tag": "greeting",
+			"patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hello", "Holla", "Good day"],
+			"responses": ["Greetings from PESU, how may i help you? These are the important dates and deadlines as of now https://pes.edu/important-dates/"],
+			"context": [""]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": ["bye", "see you later", "goodbye", "gtg", "nice chatting with you", "till next time"],
+			"responses": ["See you!", "Have a nice day!", "Adios amigo"],
+			"context": [""]
+		},
+		{
+			"tag": "thanks",
+			"patterns": ["thanks", "thank you", "thanks for the help"],
+			"responses": ["Happy to help!", "Anytime", "You're welcome"],
+			"context": [""]
+		},
+		{
+			"tag": "noanswer",
+			"patterns": [],
+			"responses": ["i'm not sure i understand", "Please elaborate", "Please give more information"],
+			"context": [""]
+		},
+		{
+			"tag": "pessat",
+			"patterns": ["I would like to know about pessat", "pessat", "How do i register for pessat", "registration for pessat", "entrance exam required"],
+			"responses": ["please click on the registration link provided https://pessat.com/ , register fast!"],
+			"context": [""]
+		},
+		{
+			"tag": "admissions",
+			"patterns": ["how do we get admissions", "admissions", "what is the admission process", "how do i get into PESU"],
+			"responses": ["admission process: https://pes.edu/admissions/ ,PESSAT registration link:https://pessat.com/ , important documents to be submitted: https://pes.edu/documents-to-submit/"],
+			"context": [""]
+		},
+		{
+			"tag": "programs",
+			"patterns": ["what are the programs offered", "programs offered", "ug programs", "what are the ug programs"],
+			"responses": ["we offer various ug and pg programs ,please click on the link provided to know more https://pes.edu/programs/ and please click on https://pes.edu/intake-of-courses/ to know about the intake of courses"],
+			"context": [""]
+		},
+		{
+			"tag": "scholarships",
+			"patterns": ["scholarships offered", "are there any scholarships", "does PESU offer scholarships", "i would like to know about the scholarships"],
+			"responses": ["yes we do offer scholarships,please click on the link given to know more https://pes.edu/scholarships/"],
+			"context": [""]
+		},
+		{
+			"tag": "hostel",
+			"patterns": ["are there hostel facilities", "hostel admissions", "procedure to use the hostel facility"],
+			"responses": ["yes we do provide seperate hostels for girls and boys , click on the link to know more https://pes.edu/hostel-admission/"],
+			"context": [""]
+		},
+		{
+			"tag": "contact info",
+			"patterns": ["can i have the contact details?", "who do i need to contact for more information", "contact information"],
+			"responses": ["https://pes.edu/contact/"],
+			"context": [""]
+		},
+		{
+			"tag": "covid19",
+			"patterns": ["is it safe", "how is PESU handling covid", "covid situation", "is it safe to send our ward during this covid crisis"],
+			"responses": ["We will be conducting online classes till the situation is under control , but the exams will be offline ,we recently had a vaccination and a covid testing drive on campus ,we are trying our best to deal with this pandemic in the right way"],
+			"context": [""]
+		},
+		{
+			"tag": "grades",
+			"patterns": ["how are our ESA grades calculated","ESA grades","how are our end semester results calculated","end sem results"],
+			"responses": ["the best among the following will be considered isa1+isa2+esa/isa1+esa/isa2+esa/assgns+esa"],
+			"context": [""]
+		},
+		{
+			"tag": "exams",
+			"patterns": ["what do we do if we miss an exam?","can we miss the esa exam?","can we miss isa's?"],
+			"responses": ["Students are advised to take up all the exams , however ,incase they miss ISA's ESA will be taken as the major component ,if students miss the ESA ,they'll have to write the special ESA when the backlog exams are conducted, in this case scholarships won't be given if the student performs well in the special ESA "],
+			"context": [""]
+		},
+		{
+			"tag": "transport",
+			"patterns": ["does the college provide transport?","transport facility","is transport facility available?","is there bus facility?"],
+			"responses": ["A detailed mail regarding transport will be sent once the students are admitted into their respective courses, for further information please click on the following link: https://pes.edu/new-students/transportation/"],
+			"context": [""]
+		},
+		{
+			"tag": "achievements",
+			"patterns": ["How is PESU different from other colleges?","Why should i put my child in PES?","Achievements of PESU students"],
+			"responses": ["Please check this link out :https://news.pes.edu/tag/student-achievements"],
+			"context": [""]
+		},
+		{
+			"tag": "extracurriculars",
+			"patterns": ["what do students learn apart from the course that they've enrolled in?","Extracurricular activities at PES"],
+			"responses": ["there are a wide variety of clubs at PESU ranging from cyber clubs to music clubs, a seperate orientation will be conducted regarding the same. PESU also offers extra courses known as the PESU io courses, conducted by our very own seniors , announcements regarding the same will also be made"],
+			"context": [""]
+		},
+		{
+			"tag": "campus",
+			"patterns": ["How big is the campus?","campus tour"],
+			"responses": ["main campus:https://www.youtube.com/watch?v=R6NawiCkNNw "],
+			"context": [""]
+		},
+		{
+			"tag": "RRvsEC",
+			"patterns": ["what's the difference between the rr and ec campus?","is the rr campus better?","do the higher rank holders get into the rr campus?"],
+			"responses": ["there is no difference between the rr and the ec campus, we share the same resources and equally qualified faculty , but yes the rr campus was establised before the ec campus,hence students might prefer the former since it is the lder campus "],
+			"context": [""]
+		}
+	]
+}
