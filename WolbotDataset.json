@@ -1,0 +1,75 @@
+{
+	"intents": [{
+			"tag": "greeting",
+			"patterns": ["hey","wassup","hi","hey there","hello","heyyy","hello there"],
+			"responses": ["Hey wassup, i'm Wolbot, the new wolf society bot, how may i help you ?"],
+			"context": [""]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": ["bye", "see you later", "goodbye", "gtg", "nice chatting with you", "till next time"],
+			"responses": ["Adios amigo","byeee","tataaa","have a nice day!","c ya later byeee"],
+			"context": [""]
+		},
+		{
+			"tag": "thanks",
+			"patterns": ["thanks", "thank you", "thanks for the help","ty","tysm"],
+			"responses": ["hey no probs buddy", "Anytime mate", "You're welcome"],
+			"context": [""]
+		},
+		{
+			"tag": "noanswer",
+			"patterns": [],
+			"responses": ["stop zoning out on me buddy","hey what's going on,what's the issue"],
+			"context": [""]
+		},
+		{
+			"tag": "FAQ",
+			"patterns": ["Are you a bot?","Are you an actual person or?","is this automated?","is this an automated message?" ],
+			"responses": ["brooooo how can you say that :(, nah just kidding XD, the name's bot, Wolbot. Yup so how may i help you ? "],
+			"context": [""]
+		},
+		{
+			"tag": "intro",
+			"patterns": ["what is this society all about","what do you guys do exactly","what does new wolf society do","what do we do in this club?"],
+			"responses": ["New Wolf Society is a haven for creators,makers and hackers to network, learn and build. If you want to get in you've got to participate in the Icebreaker Program"],
+			"context": [""]
+		},
+		{
+			"tag": "entry",
+			"patterns": ["How do i get in?","How do we get in?","what is the Ice Breaker program?","i want to get into the club","Procedure to get into the club"],
+			"responses": ["The Icebreaker Program is a two week program. You'll get to interact and work with new peeps.We also conduct useful webinars.The goal is'nt completing the the project,it's all about learning and building."],
+			"context": [""]
+		},
+		{
+			"tag": "programs",
+			"patterns": ["what do we do once we get in?","what happens after we get in?"],
+			"responses": ["We do have various events in store for you guys.One of the events is tech clusters,where you get to choose a domain of your choice and work on a project for two weeks. As a matter of fact, i'm one of those projects XD"],
+			"context": [""]
+		},
+		{
+			"tag": "folks",
+			"patterns": ["how are the peeps here?","how are the folks at New Wolf society?"],
+			"responses": ["We obviously are a bunch of fun,interesting people and we can't wait to meet you"],
+			"context": [""]
+		},
+		{
+			"tag": "contact info",
+			"patterns": ["can i have the contact details?", "who do i need to contact for more information", "contact information"],
+			"responses": ["https://pes.edu/contact/"],
+			"context": [""]
+		},
+		{
+			"tag": "why",
+			"patterns": ["why should i get in?","what will i learn?","how is this going to benefit me?","how is this going to help me?"],
+			"responses": ["You will learn new stuff and get to work on some amazing projects,moreover the experience is really fun,we don't want you missing out on that,just check out our website to get a clearer picture"],
+			"context": [""]
+		},
+		{
+			"tag": "qualification",
+			"patterns": ["do i need to be techsaavy to get in?","can anyone get in?","who and all get in?","are there any pre-requirements to get in?"],
+			"responses": ["Anyone who is interested in tech,wants to learn and believes in themselves will get in ,just participate in the IceBreaker program"],
+			"context": [""]
+		}
+	]
+}
