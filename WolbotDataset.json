@@ -2,13 +2,13 @@
 	"intents": [{
 			"tag": "greeting",
 			"patterns": ["hey","wassup","hi","hey there","hello","heyyy","hello there"],
-			"responses": ["Hey wassup, i'm Wolbot, the new wolf society bot, how may i help you ?"],
+			"responses": ["Hey wassup, i'm Wolbot, how may i help you ?"],
 			"context": [""]
 		},
 		{
 			"tag": "goodbye",
 			"patterns": ["bye", "see you later", "goodbye", "gtg", "nice chatting with you", "till next time"],
-			"responses": ["Adios amigo","byeee","tataaa","have a nice day!","c ya later byeee"],
+			"responses": ["Adios amigo","byeee","tataaa","have a nice day :)","c ya later byeee"],
 			"context": [""]
 		},
 		{
@@ -20,13 +20,19 @@
 		{
 			"tag": "noanswer",
 			"patterns": [],
-			"responses": ["stop zoning out on me buddy","hey what's going on,what's the issue"],
+			"responses": ["stop zoning out on me buddy","hey what's going on,what's wrong"],
 			"context": [""]
 		},
 		{
 			"tag": "FAQ",
 			"patterns": ["Are you a bot?","Are you an actual person or?","is this automated?","is this an automated message?" ],
-			"responses": ["brooooo how can you say that :(, nah just kidding XD, the name's bot, Wolbot. Yup so how may i help you ? "],
+			"responses": ["brooo :("],
+			"context": [""]
+		},
+		{
+			"tag": "extension",
+			"patterns": ["ohh","oh","my bad","sorry","lmao","don't lie","lol","what?","whatta bot"],
+			"responses": ["nah i'm just kidding XD,yes i am a bot.So how may i help you ? "],
 			"context": [""]
 		},
 		{
@@ -38,7 +44,7 @@
 		{
 			"tag": "entry",
 			"patterns": ["How do i get in?","How do we get in?","what is the Ice Breaker program?","i want to get into the club","Procedure to get into the club"],
-			"responses": ["The Icebreaker Program is a two week program. You'll get to interact and work with new peeps.We also conduct useful webinars.The goal is'nt completing the the project,it's all about learning and building."],
+			"responses": ["through the Icebreaker Program, it's a two week program. You'll get to interact and work with new peeps.We also conduct useful webinars.The goal is'nt completing the project,it's all about learning and building."],
 			"context": [""]
 		},
 		{
@@ -50,13 +56,7 @@
 		{
 			"tag": "folks",
 			"patterns": ["how are the peeps here?","how are the folks at New Wolf society?"],
-			"responses": ["We obviously are a bunch of fun,interesting people and we can't wait to meet you"],
-			"context": [""]
-		},
-		{
-			"tag": "contact info",
-			"patterns": ["can i have the contact details?", "who do i need to contact for more information", "contact information"],
-			"responses": ["https://pes.edu/contact/"],
+			"responses": ["We are a bunch of fun,interesting,enthusiastic people and we can't wait to meet you :)"],
 			"context": [""]
 		},
 		{
