@@ -70,6 +70,13 @@
 			"patterns": ["do i need to be techsaavy to get in?","can anyone get in?","who and all get in?","are there any pre-requirements to get in?"],
 			"responses": ["Anyone who is interested in tech,wants to learn and believes in themselves will get in ,just participate in the IceBreaker program"],
 			"context": [""]
+		},
+		{   "tag": "contactinfo",
+		    "patterns": ["who do i need to contact?","contact information?","contact info?","who do i need to get in touch with?","can i have the contact details?"],
+		    "responses": ["Get in touch with us on LinkedIn:https://www.linkedin.com/company/newolfsociety/,Instagram:https://www.instagram.com/newolfsociety/,Youtube:https://www.youtube.com/channel/UCRbkf2XQFSaZ6Dg6moT1sGQ,Medium:https://medium.com/newolf-society,Discord:https://discord.com/invite/MZnG9rPgMG"],
+		    "context": [""]
+
 		}
+
 	]
 }
