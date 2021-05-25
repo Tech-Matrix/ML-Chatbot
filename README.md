@@ -13,4 +13,5 @@
 # Try using lemmatisation instead od stemming , try different types of stemmers and training models to figure out which one works the best 
 # If your chatbot's accuracy is around 0.9something it's good to go , if you get more than 1 or less than 0.8something then you'll need to try increasinging the accuracy by adding more intents (this is the easiest way tho)
 # It may seem hard in the beginning but it's not once you unerstand what's actually going on :)
+# Also we could'nt upload the entire video of it working , so we uploaded just a small clip of it 
 
