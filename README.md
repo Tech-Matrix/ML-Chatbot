@@ -1,5 +1,5 @@
-# Chatbot_main.py is the final completed version of the code
 # ChatBotMLproject
+# *Chatbot_main.py is the final completed version of the code*
 # Developed using Python (chatbot code) and java (dataset)
 # You'll need to install ALOT of libraries - tensorflow, pickle, json, numpy .... so be careful about that 
 # If you have issues installing it using the normal "pip install 'module' " command , then try using "python -m pip install --upgrade 'module' "
