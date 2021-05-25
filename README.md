@@ -10,8 +10,8 @@
      #https://towardsdatascience.com/how-to-create-a-chatbot-with-python-deep-learning-in-less-than-an-hour-56a063bdfc44
      #https://medium.com/analytics-vidhya/building-a-simple-chatbot-in-python-using-nltk-7c8c8215ac6e
 # You could even use java or html for the front end ,we've made it using python's gui framework
-# Try using lemmatisation instead od stemming , try different types of stemmers and training models to figure out which one works the best 
-# If your chatbot's accuracy is around 0.9something it's good to go , if you get more than 1 or less than 0.8something then you'll need to try increasinging the accuracy by adding more intents (this is the easiest way tho)
-# It may seem hard in the beginning but it's not once you unerstand what's actually going on :)
+# Try using lemmatisation instead of stemming , try different types of stemmers and training models to figure out which one works the best 
+# If your chatbot's accuracy is around 0.9something it's good to go , if you get more than 1 or less than 0.8something then you'll need to try increasing the accuracy by adding more intents (this is the easiest way tho)
+# It may seem hard in the beginning but it's not once you understand what's actually going on :)
 # Also we could'nt upload the entire video of it working , so we uploaded just a small clip of it 
 
