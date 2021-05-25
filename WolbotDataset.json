@@ -2,13 +2,13 @@
 	"intents": [{
 			"tag": "greeting",
 			"patterns": ["hey","wassup","hi","hey there","hello","heyyy","hello there"],
-			"responses": ["Hey wassup, i'm Wolbot, how may i help you ?"],
+			"responses": ["Hey wassup,i'm Wolbot from Newolf Society, how may i help you?"],
 			"context": [""]
 		},
 		{
 			"tag": "goodbye",
 			"patterns": ["bye", "see you later", "goodbye", "gtg", "nice chatting with you", "till next time"],
-			"responses": ["Adios amigo","byeee","tataaa","have a nice day :)","c ya later byeee"],
+			"responses": ["Adios amigo","byeee","have a nice day :)","c ya later!byeee"],
 			"context": [""]
 		},
 		{
@@ -26,19 +26,19 @@
 		{
 			"tag": "FAQ",
 			"patterns": ["Are you a bot?","Are you an actual person or?","is this automated?","is this an automated message?" ],
-			"responses": ["brooo :("],
+			"responses": ["Ouch :("],
 			"context": [""]
 		},
 		{
 			"tag": "extension",
 			"patterns": ["ohh","oh","my bad","sorry","lmao","don't lie","lol","what?","whatta bot"],
-			"responses": ["nah i'm just kidding XD,yes i am a bot.So how may i help you ? "],
+			"responses": ["i'm just kidding XD,I am Newolf society's bot. So how may i help you ? "],
 			"context": [""]
 		},
 		{
 			"tag": "intro",
 			"patterns": ["what is this society all about","what do you guys do exactly","what does new wolf society do","what do we do in this club?"],
-			"responses": ["New Wolf Society is a haven for creators,makers and hackers to network, learn and build. If you want to get in you've got to participate in the Icebreaker Program"],
+			"responses": ["Newolf Society is a haven for creators,makers and hackers to network, learn and build. If you want to get in you've got to participate in the Icebreaker Program"],
 			"context": [""]
 		},
 		{
@@ -55,7 +55,7 @@
 		},
 		{
 			"tag": "folks",
-			"patterns": ["how are the peeps here?","how are the folks at New Wolf society?"],
+			"patterns": ["how are the peeps here?","how are the folks at Newolf society?"],
 			"responses": ["We are a bunch of fun,interesting,enthusiastic people and we can't wait to meet you :)"],
 			"context": [""]
 		},
@@ -71,12 +71,11 @@
 			"responses": ["Anyone who is interested in tech,wants to learn and believes in themselves will get in ,just participate in the IceBreaker program"],
 			"context": [""]
 		},
-		{   "tag": "contactinfo",
-		    "patterns": ["who do i need to contact?","contact information?","contact info?","who do i need to get in touch with?","can i have the contact details?"],
-		    "responses": ["Get in touch with us on LinkedIn:https://www.linkedin.com/company/newolfsociety/,Instagram:https://www.instagram.com/newolfsociety/,Youtube:https://www.youtube.com/channel/UCRbkf2XQFSaZ6Dg6moT1sGQ,Medium:https://medium.com/newolf-society,Discord:https://discord.com/invite/MZnG9rPgMG"],
-		    "context": [""]
-
+		{
+			"tag": "contact",
+			"patterns": ["how do we contact you guys?","how do we get in touch with you guys?","what is your instagram handle?","contact info?","are you guys on linkedin?","what social media platforms are you guys available on?"],
+			"responses": ["For more info about us/to contact us please head over to LinkedIn:https://in.linkedin.com/company/newolfsociety  Instagram:https://www.instagram.com/newolfsociety/?hl=en  Medium:https://medium.com/newolf-society/about  Discord:https://discord.com/invite/MZnG9rPgMG  Youtube:https://www.youtube.com/channel/UCRbkf2XQFSaZ6Dg6moT1sGQ  email:societynewolf@gmail.com"],
+			"context": [""]
 		}
-
 	]
 }
